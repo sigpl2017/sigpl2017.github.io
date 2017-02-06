@@ -7,19 +7,13 @@ categories: jekyll update
 
 ### Coq
 
-- Use Coq [8.5pl2](https://coq.inria.fr).  *DO NOT* use other versions.
-    + If not, your submissions (assignments & exams) will not be properly graded.
-
-- Install Coq.
+- Install Coq8.5pl2.
     + Installer (OS X / Windows)
-        * Download [Binaries](https://coq.inria.fr/download) and install it.
+        * Win64 [Binary](https://coq.inria.fr/distrib/8.5pl2/files/coq-installer-8.5pl2-win64.exe)
+        * OS X [Binary](https://coq.inria.fr/distrib/8.5pl2/files/CoqIDE_8.5pl2.dmg)
 
-    + OPAM (Linux / OS X)
+    + OPAM (Linux)
         * Install necessary libraries.
-            - OS X
-
-                    # install brew (http://brew.sh/index.html)
-                    brew install gtksourceview libxml2
 
             - CentOS-like Linux
 
@@ -38,7 +32,24 @@ categories: jekyll update
 - Use IDEs supporting Coq.
     + CoqIDE: installed by default. (Recommended)
     + Emacs: [Company-Coq](https://github.com/cpitclaudel/company-coq). Follow the setup instructions.
-    + Vim: [Coquille](https://github.com/the-lambda-church/coquille). See the troubleshootings below.
+    + Vim: [Coquille](https://github.com/the-lambda-church/coquille).
 
-#Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+### Troubleshootings
+
+- If you use Coquille (on Vim) and your terminal is hidden by some message (`warning (some rule has been masked)`), please edit `~/.vim/.../coquille/autoload/coquille.py`'s `restart_coq` as follows (NOTE: `stderr = subprocess.PIPE`):
+
+        def restart_coq(*args):
+        global coqtop
+        if coqtop: kill_coqtop()
+        try:
+            coqtop = subprocess.Popen(
+                    ["coqtop", "-ideslave"] + list(args),
+                    stdin = subprocess.PIPE,
+                    stdout = subprocess.PIPE,
+                    stderr = subprocess.PIPE,
+                    preexec_fn = ignore_sigint
+                    )
+        except OSError:
+            print("Error: couldn't launch coqtop")
 
