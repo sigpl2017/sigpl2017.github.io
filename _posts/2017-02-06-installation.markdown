@@ -8,11 +8,11 @@ categories: jekyll update
 ### Coq
 
 - Install Coq8.5pl2.
-    + Installer (OS X / Windows)
+    + OS X / Windows
         * Win64 [Binary](https://coq.inria.fr/distrib/8.5pl2/files/coq-installer-8.5pl2-win64.exe)
         * OS X [Binary](https://coq.inria.fr/distrib/8.5pl2/files/CoqIDE_8.5pl2.dmg)
 
-    + OPAM (Linux)
+    + Linux
         * Install necessary libraries.
 
             - CentOS-like Linux
@@ -29,7 +29,7 @@ categories: jekyll update
         * Test by `coqc -v` in the command line. Check your `PATH` variable if you get an error.
         * Run CoqIDE by `coqide`.
 
-- Use IDEs supporting Coq.
+- Prepare IDEs for editing Coq proof.
     + CoqIDE: installed by default. (Recommended)
     + Emacs: [Company-Coq](https://github.com/cpitclaudel/company-coq). Follow the setup instructions.
     + Vim: [Coquille](https://github.com/the-lambda-church/coquille).
