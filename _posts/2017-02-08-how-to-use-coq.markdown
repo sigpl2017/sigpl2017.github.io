@@ -19,7 +19,7 @@ categories: jekyll update
     + Disable screen rotation functionality in Windows by opening Intel HD utility (try `Ctrl + Alt + F12`). [link](http://superuser.com/questions/592684/disable-screen-orientation-hot-keys-in-windows-8-ctrl-alt-arrow)
 
 - If you see error `Error: Cannot find library XXX in loadpath`, try `Compile` -> `Make`. If it doesn't work, open XXX.v and try `Compile` -> `Compile buffer`.
-    + 2017-02-08 : This should generate `XXX.vo` files. If it doesn't, try to directly compile `XXX.v` file, by running `C:\Coq\bin\coqc -I "<absolute-path>\sf" "<absolute-path>\sf\XXX.v"`. (This should be especially helpful for compiling `Induction.v`, if you are suffering from compiling it)
+    + 2017-02-08 : This should generate `XXX.vo` files. If it doesn't, try to directly compile `XXX.v` file, by running `C:\Coq\bin\coqc -I "<absolute-path>\sf" "<absolute-path>\sf\XXX.v"`. (This should be especially helpful for compiling `Induction.v`, if you are suffering from compiling it) (You should run this command in your working directory.)
 
 ### Asking for Help
 
