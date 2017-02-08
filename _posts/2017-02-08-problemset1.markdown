@@ -31,3 +31,7 @@ categories: jekyll update
 (Exercise) filter_even_gt_7
 (Exercise) partition
 ```
+
+[Lecture ppt][1]
+
+[1]:{{ site.url }}/download/file.pdf
