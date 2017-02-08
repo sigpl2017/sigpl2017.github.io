@@ -5,11 +5,13 @@ date:   2017-02-06 23:59:34 +0900
 categories: jekyll update
 ---
 
+### CoqIde Shortkeys
+
 - `Ctrl + Alt + Down` : Prove next statement
 - `Ctrl + Alt + Right` : Prove up to the cursor
 - `Ctrl + Alt + Up` : Retreat by one statement
 
-## Troubleshootings
+### Troubleshootings
 
 - If you are using Windows OS, and if `Ctrl + Alt + Arrow` rotates the screen, you can try either of two solutions :
     + Change shortkeys by opening `Preferences` -> `Shortcuts` in CoqIde.
