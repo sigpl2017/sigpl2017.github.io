@@ -10,6 +10,7 @@ categories: jekyll update
 - `Ctrl + Alt + Down` : Prove next statement
 - `Ctrl + Alt + Right` : Prove up to the cursor
 - `Ctrl + Alt + Up` : Retreat by one statement
+    + 2017.02.08 : If it doesn't work, try `Ctrl + Down/Right/Up` as well.
 
 ### Troubleshootings
 
