@@ -17,6 +17,8 @@ categories: jekyll update
     + Change shortkeys by opening `Preferences` -> `Shortcuts` in CoqIde.
     + Disable screen rotation functionality in Windows by opening Intel HD utility (try `Ctrl + Alt + F12`). [link](http://superuser.com/questions/592684/disable-screen-orientation-hot-keys-in-windows-8-ctrl-alt-arrow)
 
+- If you see error `Error: Cannot find library XXX in loadpath`, try `Compile` -> `Make`. If it doesn't work, open XXX.v and try `Compile` -> `Compile buffer`.
+
 ### Asking for Help
 
 - You can ask TAs directly by raising your hands.
