@@ -20,4 +20,4 @@ categories: jekyll update
 ### Asking for Help
 
 - You can ask TAs directly by raising your hands.
-- Or, register your questions in 'Issues' tab ([here](https://github.com/sigpl2017/sigpl2017.github.io/issues))
+- Or, register your questions ([here](https://github.com/sigpl2017/sigpl2017.github.io/issues))
