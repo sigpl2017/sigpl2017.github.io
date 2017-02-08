@@ -17,3 +17,7 @@ categories: jekyll update
     + Change shortkeys by opening `Preferences` -> `Shortcuts` in CoqIde.
     + Disable screen rotation functionality in Windows by opening Intel HD utility (try `Ctrl + Alt + F12`). [link](http://superuser.com/questions/592684/disable-screen-orientation-hot-keys-in-windows-8-ctrl-alt-arrow)
 
+### Asking for Help
+
+- You can ask TAs directly by raising your hands.
+- Or, register your questions in 'Issues' tab ([here](https://github.com/sigpl2017/sigpl2017.github.io/issues))
