@@ -5,6 +5,8 @@ date:   2017-02-08 18:31:00 +0900
 categories: jekyll update
 ---
 
+[Lecture ppt][1]
+
 #### Basics.v
 ```
 (Exercise) nandb
@@ -32,6 +34,4 @@ categories: jekyll update
 (Exercise) partition
 ```
 
-[Lecture ppt][1]
-
-[1]:{{ site.url }}/download/file.pdf
+[1]:{{ site.url }}/download/lecture.pdf
