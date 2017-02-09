@@ -36,4 +36,4 @@ Exercise: 1 star (inversion_ex3)
 Exercise: 2 stars (beq_nat_true)
 ```
 
-[1]:{{ site.url }}/download/lecture.pdf
+[1]:{{ site.url }}/download/Lecture2.v
