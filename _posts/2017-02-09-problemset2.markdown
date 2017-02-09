@@ -29,6 +29,19 @@ Exercise: 2 stars, optional (beq_nat_refl)
 Exercise: 2 stars, optional (plus_swap')
 ```
 
+```
+(Additional problem)
+Fixpoint sum (n:nat): nat :=
+  match n with
+  | O => O
+  | S m => n + (sum m)
+  end.
+
+Lemma sum_spec n: 2 * (sum n) = n * (n + 1).
+Proof.
+Qed.
+```
+
 #### Tactics.v
 ```
 Exercise: 2 stars, optional (silly_ex)
