@@ -7,7 +7,7 @@ categories: jekyll update
 
 #### Basics.v
 
-- You'll run what `destruct` tactic is
+- You'll learn what `destruct` tactic is.
 
 ```
 Exercise: 2 stars (andb_true_elim2)
