@@ -22,6 +22,8 @@ Exercise: 1 star (zero_nbeq_plus_1)
 Exercise: 1 star (plus_id_exercise)
 ```
 
+- NOTE : You can use `rewrite <- H` to rewrite in reversed direction.
+
 #### Induction.v
 
 - Please read carefully how they solve `plus_n_O` first, using `induction` tactic. It would largely help you solve these problems.
