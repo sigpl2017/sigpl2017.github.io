@@ -5,6 +5,8 @@ date:   2017-02-09 15:17:00 +0900
 categories: jekyll update
 ---
 
+[Coq file][1]
+
 #### Basics.v
 
 - You'll learn what `destruct` tactic is.
@@ -33,3 +35,5 @@ Exercise: 2 stars, optional (silly_ex)
 Exercise: 1 star (inversion_ex3)
 Exercise: 2 stars (beq_nat_true)
 ```
+
+[1]:{{ site.url }}/download/lecture.pdf
