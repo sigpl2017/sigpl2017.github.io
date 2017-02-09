@@ -30,15 +30,21 @@ Exercise: 2 stars, optional (plus_swap')
 ```
 
 ```
-(Additional problem)
+(* Additional problem *)
+
 Fixpoint sum (n:nat): nat :=
   match n with
   | O => O
   | S m => n + (sum m)
   end.
 
-Lemma sum_spec n: 2 * (sum n) = n * (n + 1).
+Require Import Lia.
+
+Lemma sum_spec: forall n, 2 * (sum n) = n * (n + 1).
 Proof.
+  intros. induction n; simpl.
+  - lia.
+  - lia.
 Qed.
 ```
 
