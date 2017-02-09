@@ -18,7 +18,7 @@ Exercise: 1 star (zero_nbeq_plus_1)
 
 #### Induction.v
 
-- Please read carefully how they solve `plus_n_O` first, using `induction` tactic. It would largely help solving problems.
+- Please read carefully how they solve `plus_n_O` first, using `induction` tactic. It would largely help you solve these problems.
 
 ```
 Exercise: 2 stars, recommended (basic_induction)
