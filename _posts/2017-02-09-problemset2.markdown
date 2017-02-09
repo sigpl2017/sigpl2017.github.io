@@ -16,6 +16,12 @@ Exercise: 2 stars (andb_true_elim2)
 Exercise: 1 star (zero_nbeq_plus_1)
 ```
 
+- You need to know what `rewrite` tactic is. See `plus_id_example` example, and try this problem :
+
+```
+Exercise: 1 star (plus_id_exercise)
+```
+
 #### Induction.v
 
 - Please read carefully how they solve `plus_n_O` first, using `induction` tactic. It would largely help you solve these problems.
