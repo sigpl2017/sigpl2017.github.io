@@ -36,6 +36,14 @@ Exercise: 2 stars, optional (not_implies_our_not) (Hint : `apply X in Y.`)
 Exercise: 2 stars, recommended (contrapositive) (Hint : `unfold not.`)
 ```
 
+#### Existential
+
+Read `four_is_even` and `exists_example_2`, and learn `exists` tactic.
+
+```
+Exercise: 1 star (dist_not_exists)
+```
+
 #### Challenge!
 
 ```
