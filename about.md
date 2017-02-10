@@ -8,4 +8,4 @@ permalink: /about/
 
 - [sigpl2017WinterSchool.pdf][1]
 
-[1]:{{ site.url }}/download/lecture.pdf
+[1]:{{ site.url }}/download/sigpl2017WinterSchool.pdf
