@@ -5,6 +5,7 @@ date:   2017-02-10 10:39:00 +0900
 categories: jekyll update
 ---
 
+[Lecture.v][1]
 
 All these problems are in `Logic.v`.
 
@@ -50,4 +51,4 @@ Exercise: 1 star (dist_not_exists)
 Exercise: 5 stars, advanced, optional (classical_axioms)
 ```
 
-
+[1]:{{ site.url }}/download/Lecture3.v
